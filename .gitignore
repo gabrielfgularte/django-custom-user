@@ -1,0 +1,11 @@
+### Python ###
+__pycache__/
+*.py[cod]
+
+### Django ###
+*.log
+*.pot
+local_settings.py
+
+### Vagrant ###
+.vagrant/
