@@ -10,6 +10,6 @@ sudo dpkg-reconfigure --frontend noninteractive tzdata
 su vagrant << EOF
     virtualenv -p python3 ~/env
     ~/env/bin/pip install -r /vagrant/requirements.txt
-    ~/env/bin/python /vagrant/api/manage.py migrate account
-    ~/env/bin/python /vagrant/api/manage.py migrate
+    ~/env/bin/python /vagrant/django_custom_user/manage.py migrate account
+    ~/env/bin/python /vagrant/django_custom_user/manage.py migrate
 EOF
