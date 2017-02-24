@@ -9,3 +9,5 @@ local_settings.py
 
 ### Vagrant ###
 .vagrant/
+
+*.sqlite3
